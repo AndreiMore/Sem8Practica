@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 883714511829918149}
   - component: {fileID: 8342143860693902187}
   - component: {fileID: 4402788846158121030}
+  - component: {fileID: -3487998969347703918}
   m_Layer: 0
   m_Name: PlyrBullet
-  m_TagString: Untagged
+  m_TagString: BulletPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -162,5 +163,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18965cadc6c9a234e8cf4f53879cff37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 30
   direction: {x: 1, y: 0}
+--- !u!114 &-3487998969347703918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4317579245556953729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 293d1ab74280d584f984d18fe4a27604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
